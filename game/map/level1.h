@@ -1,0 +1,1 @@
+int game_lv1(SDL_Window*, SDL_Surface*, int, int);
