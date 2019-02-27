@@ -1,5 +1,5 @@
 # 2D-Side-scrolling-Game
-Using c++ to make a simple 2D Side-scrolling Game by yourself
+Using c++ to make a simple 2D Side-scrolling Game by yourself  
 The picture and sound is quite big, so be patient when downloading.
 
 ## Demo (It might be lag for playing the first time)
@@ -50,4 +50,4 @@ Just type below in ./game (for linux)
 
     make
 ---
-advises and pull requests are welcome
+### Advises and Pull Requests are welcome
