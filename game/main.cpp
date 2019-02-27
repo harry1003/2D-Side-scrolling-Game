@@ -40,5 +40,5 @@ int main(){
         );
         quit = end_page(gWindow, gScreenSurface, end);
     }
-
+    SDL_Quit();
 }

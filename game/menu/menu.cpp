@@ -51,12 +51,15 @@ bool end_page(SDL_Window* gWindow, SDL_Surface* gScreenSurface, int end){
     SDL_Delay(1500);
 
     SDL_Event e;
+    SDL_PollEvent(&e);
 	do{	
 	    SDL_PollEvent(&e);
+        if (e.type == SDL_QUIT)
+            return true;
 	}
 	while(
-        e.type != SDL_KEYDOWN &&
-        e.type != SDL_MOUSEBUTTONDOWN
+        e.key.keysym.scancode != SDL_SCANCODE_Q &&
+        e.key.keysym.scancode != SDL_SCANCODE_R
     );
 
     if(e.key.keysym.scancode == SDL_SCANCODE_Q){

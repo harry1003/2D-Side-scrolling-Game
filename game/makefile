@@ -1,4 +1,4 @@
-EXENAME = game
+EXENAME = game_linux
 
 CC = g++
 INCLUDE = -lSDL2 -lSDL2_image -lSDL2_mixer
