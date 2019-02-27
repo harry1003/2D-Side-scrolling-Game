@@ -20,7 +20,7 @@ might need to compile c++ files by yourself.
     see https://www.libsdl.org/download-2.0.php for more detail
 
 ## How to use this code?
-### 1. For someone who just playing the game
+### 1. For someone who just want to playing the game
 
         cd ./game
         ./game_linux
