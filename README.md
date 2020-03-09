@@ -41,10 +41,6 @@ might need to compile c++ files by yourself.
     1. define this event in ./util.h -> enum{}
     2. define what this event actually done in object.cpp
 
-### 3. For someone who want to know how this works
-
-    /*Todo*/
-
 ## How to comile this file after I change it?
 Just type below in ./game (for linux)
 
